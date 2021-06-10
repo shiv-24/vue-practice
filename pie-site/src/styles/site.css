@@ -1,0 +1,29 @@
+    body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        /* margin: 0px;
+        padding: 0px; */
+        background-image: url('../assets/pattern.png');
+        background-repeat: repeat;
+    }
+
+    .jumbotron-detail-apple-pie {
+        background: url('../assets/products/applepie.jpg') no-repeat fixed;
+    }
+    
+    .jumbotron-other {
+        background: url('../assets/carousel3.jpg') no-repeat fixed;
+    }
+
+    .jumbotron {
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .bg-primary {
+        background-color: #a593c2 !important;
+    }
+
+    @media only screen and (min-width : 1200px) {
+        .container { max-width: 1700px; padding-top: 10px;}
+    }
